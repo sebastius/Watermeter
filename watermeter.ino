@@ -9,7 +9,7 @@
 #include <EEPROM.h>
 
 const int sensor = A3; // Beware that A6 and A7 have no internal pullup, and NEED the external 10k
-const int keepalive_time = 10000; // wait time between posting stats if no new values. Milliseconds.
+const int keepalive_time = 30000; // wait time between posting stats if no new values. Milliseconds.
 const int eeAddress = 0;
 
 int lastval;
